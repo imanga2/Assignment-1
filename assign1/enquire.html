@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="utf-8"/>
+     <meta name="description" content="enquiry page"/>
+     <meta name="keywords" content="questions and querry"/>
+     <meta name="author" content="Ishaan"/>
+	
+	 <title>TV Purchase Enquiry</title>
+	 <link rel="stylesheet" href="css/style.css"> 
+	 
+</head>
+<body>
+   <header>
+   
+    <!-- sticky icon bar -->
+	
+    <div class="icon-bar">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>  
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
+   <a href="images/ishtv10.jpg"><img src="images/ishtv10.jpg" alt="ishTV logo" class="logo"/></a>
+      <h1 class="h1">ishTV - Connecting You</h1><hr>
+	  <nav>
+	    <ul class="menu">
+		 
+		<li> <a href="index.html">Home</a></li>
+		<li> <a href="product.html">Description</a></li>
+		<li> <a href="#enquiry">Enquiry</a></li>
+		<li> <a href="about.html">About</a></li>
+		<li> <a href="enhancement.html">Enhancements</a></li>
+		</ul>
+	  </nav> 
+	  <hr>
+	  </header>
+	  
+	   <!-- enquiry -->
+	   
+	   
+	  <h1 class="head"> Enquiry </h1>
+	  <form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
+	  <img src="images/enquiry.png" id="enquiry" alt="enquiry form pic" height="250"/>
+	  <h2>Ask your query here and our Customer Service team will contact you soon.</h2>
+	 <fieldset class="name"> 
+	  <legend>PERSONAL DETAILS</legend>
+	  <p class="name"><label class="name" for="GivenName">Given Name</label>
+	     <input type="text" name="GivenName" pattern="^[A-Za-z]+$" maxlength="25" id="GivenName" required="required"/>
+	  <label class="name" for="FamilyName">Family Name</label>
+	     <input type="text" name="FamilyName" pattern="^[a-zA-Z]+$" maxlength="25" id="FamilyName" required="required" />
+		</fieldset> 
+		<fieldset class="address">
+		<legend>ADDRESS</legend>
+		<p class="address"><label class="address" for="street">Street Address</label>
+		  <input type="text" name="StreetAdd" maxlength="40" id="street" required="required"/>
+		 </p>
+       <p class="address"><label class="address" for="town">Suburb/Town</label>
+          <input type="text" maxlength="20" name="Town" id="town"/></p>
+		<p class="address"><Label class="address">Post Code</Label>
+		<input type="text" pattern="[0-9]{4,4}" placeholder="####" maxlength="4"/>
+       <p class="address"><label class="address" for="state">State</label>
+        <select required name="state" id="state">
+		     <option value="">Please Select</option>
+			 <option value="vic">VIC</option>
+			 <option value="nsw">NSW</option>
+			 <option value="qld">QLD</option>
+			 <option value="nt">NT</option>
+			 <option value="wa">WA</option>
+			 <option value="sa">SA</option>
+			 <option value="tas">TAS</option>
+			 <option value="act">ACT</option>
+		</select></fieldset>   
+	  <fieldset class="contact">
+	  <legend>CONTACT DETAILS</legend>
+	  <p class="contact"><label class="contact" for="PhoneNo.">Phone No.</label>
+	     <input type="tel" name="PhoneNo." placeholder="##########" pattern="[0-9]{0-10}" id="PhoneNo." maxlength="10" required="required" /></p>
+	  <p class="contact"><label class="contact" for="Email"> Email ID</label>
+         <input type="email" name="Email" placeholder="name@domain.com" id="Email"/></p>
+	 <p class="contact"><label class="contact">Preferred Contact:</label></p>
+	 <p class="contact"><label class="contact" for="phone">PhoneNo</label>
+	 <input type="radio" id="phone" name="Preferred" value="Phone"/>
+	 
+	 <label class="contact" for="email">Email</label>
+	  <input type="radio" id="email" name="Preferred" value="Email"/>
+	 
+	 <label class="contact" for="post">Post</label>
+	  <input type="radio" id="post" name="Preferred" value="Post"/>
+	  </p>
+		 </fieldset>		  
+		<fieldset class="product">
+		<legend>Product Detail</legend>
+		<p class="product"><label class="product" for="Model">Model Year</label>
+	    <select required name="Model" id="Model">
+		     <option value="">Please Select</option>
+			 <option value="2016">2016</option>
+			 <option value="2017">2017</option>
+			 <option value="2018">2018</option>
+			 <option value="2019">2019</option>
+			 <option value="2020">2020</option>
+			 <option value="2021">2021</option>
+		</select>
+		<p class="product">Query:</p>
+	 <textarea id="comments" name="Description" placeholder="Enquire Here" rows="10" cols="60"></textarea>
+       </fieldset>
+	   
+    <input type="submit" class="submit" value="SUBMIT"/>
+	<input type="reset" class="submit" value="RESET"/>
+	<hr>
+</form>	
+<footer>
+	<div class="footer-container">
+	   <div class="footer">
+	       <div class="footer-heading footer-1">
+		       <h2>About Us</h2>
+			   <a href="#">Blog</a>
+			   <a href="#">Demo</a>
+			   <a href="#">Customers</a>
+			   <a href="#">Investors</a>
+			   <a href="#">Terms of Service</a>
+		   </div>
+		   <div class="footer-heading footer-2">
+		       <h2>Contact Us</h2>
+			   <a href="#">Jobs</a>
+			   <a href="#">Support</a>
+			   <a href="#">Contact</a>
+			   <a href="#">Sponsorships</a>
+			   
+		   </div>
+		   <div class="footer-heading footer-3">
+		       <h2>Social Media</h2>
+			   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			   <a href="#" class="fa fa-instagram">: Instagram</a>
+              <a href="#" class="fa fa-facebook">: Facebook</a>
+              <a href="#" class="fa fa-twitter">: Twitter</a>
+			  <a href="#" class="fa fa-linkedin">: LinkedIn</a>
+			  <a href="#" class="fa fa-youtube">: YouTube</a>
+		   </div>
+		   <div class="footer-email-form">
+		      <h2>Join Our Newsletter</h2>
+			  <input type="email" placeholder="Enter Your Email" id="footer-email">
+			  <input type="submit" value="Sign Up" id="footer-email-btn">
+			</div>
+	   </div>
+	</div>
+	 
+	 </footer><hr>
+   
+</body>
+</html>

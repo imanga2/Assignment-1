@@ -1,0 +1,448 @@
+  /*
+filename: style.css 
+author: Ishaan
+created: 20 March 2021
+last modified: 26 March 2021
+description: Website TV Purchase(Assignment)
+*/
+
+
+ body{ background-image:url("images/bg.jpg");
+       padding:0;
+	   margin:0;}
+ nav a { 
+           padding: 0.2em 0.6em;
+		   border: 2px groove honeydew ;		   
+		   text-align: right;
+            width: 90px;
+                     height: 60px;
+					 border-radius: 4px;
+					 background-color:lightsalmon ;
+					 outline:none;
+			         border: none;
+					 color: white;
+					 font-size: 1.5rem;
+					 text-decoration:none;
+		  
+		   
+		}
+		
+ header, .menu { background-color: mediumturquoise;
+          
+ 
+ }
+
+ nav a:hover {
+               border-color: darkblue;
+			    cursor: pointer;
+                background-color: #337AF1;
+               transition: all 0.4s ease-out;
+			   
+   }  
+   
+  .logo { width: 160px;
+          cursor: pointer;
+		  height: 120px;
+		  
+  }
+   nav ul li { list-style: none;
+               display: inline-block;
+			   margin: 0 20px;
+			   background-color: mediumturquoise;
+			   
+   }
+   .h1 { text-align: center;
+         color: black;
+		 text-shadow: 2px 2px white;
+		 background-color: mediumturquoise;
+		 font:4rem Arial, sans-serif ;
+          height: 40px;
+		 
+   }
+   .stock { color:green;
+            margin:20px;
+   text-align:center;}
+   
+   .mrp { text-decoration: line-through;
+          color: red;
+   }
+   
+ 
+   em { color: darkgreen;
+   }
+   
+                         /*table styling*/
+   
+   table,th , td {border: 2px solid #4B0082;
+                   text-align: center;
+				   margin-left:auto;
+				   margin-right:auto;
+				   border-collapse: collapse;
+				   width: 80%;
+				   background-color: #F0E68C;
+				   table-layout: fixed;
+				   padding: 15px;
+   }
+   
+  
+ .spec {
+		   border: 4px groove honeydew ;
+		   color: darkcyan;
+		   margin:40px;
+		    background-color: moccasin;
+		   }
+		   
+  .specifications{ background-color: moccasin;
+                   margin: 10px;			   
+                   
+		   }
+		   
+	                 /*enquiry form styling*/	   
+		   
+ #enquiry { display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+ } 
+ .head { text-align: center;
+ }
+ 
+ h1 { text-align: center;
+ }
+ aside {
+  width: 25%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightblue;
+}
+
+
+                    /*My pic styling (About)*/
+ 
+ .ishaan { float: right;
+		 border-radius:70%;
+		  border: 0.5rem solid black;
+          padding: 20px;
+         background-color: slateblue;
+		 border-style: double;
+		  
+   }
+   
+                  /*defination list styling*/
+   
+   dl {
+        display: block;
+        margin-top: 2em;
+        margin-left: 2em;
+        
+}
+   dd {
+    margin: 0 0 0 110px;
+    padding: 0 0 0.5em 0;
+  }
+  
+  dt {
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    color: green;
+  }
+  
+  article  {
+  margin: 10px;
+  padding: 5px;
+  }
+  
+ #a1 {  width: 45%;
+  padding-left: 15px;
+  margin-left: 25px;
+  float: right;
+  font-style: italic;
+  background-color: pink;
+ }
+ 
+ #a {  width: 45%;
+   padding-right: 15px;
+  margin-right: 25px;
+  float: left;
+  font-style: italic;
+  background-color: lightblue;
+ }
+ 
+  .tut, .live1{ background-color: #FFFF00  }
+  
+  .live2, .lab{background-color: #add8e6 }
+  .live3, .prac{background-color: #90EE90}
+  .live4, .lab1{background-color: #00FFFF  }
+  
+  th { background-color: #d8bfd8;
+       color: #D2691E;
+  }
+  .t1 td:nth-child(1) {background-color:#98FB98 ;
+                       color:#D2691E ;
+  }
+  
+ 
+                        /*footer styling*/
+  
+ .footer-container { background-color: mediumturquoise;
+                     padding:2rem 0 4rem 0;
+ }
+ 
+ .footer{ width: 80%;
+          height: 40vh;
+		  background-color: mediumturquoise;
+		  color: dimgray;
+		  display: flex;
+		  justify-content: center;
+		  flex-wrap: wrap;
+		  margin: 0 auto;
+ }
+ 
+ .footer-heading { display:flex;
+                   flex-direction: column;
+				   margin-right: 4rem;
+				   background-color: mediumturquoise;
+ }
+ 
+ .footer-heading h2 {  
+                       background-color: mediumturquoise;
+ }
+ .footer-heading a { color:rebeccapurple ;
+                    text-decoration: none;
+					margin-bottom: 0.5rem;
+					background-color: mediumturquoise;
+ }
+ 
+ .footer-heading a:hover { color: red;
+                           transition: 0.3s ease-out;
+ }
+ 
+.footer-email-form h2 { margin-bottom: 2rem;
+                        background-color: mediumturquoise;
+}
+#footer-email{ width: 250px;
+               height: 40px;
+			   border-radius: 4px;
+			   outline:none;
+			   border: ridge;
+			   padding-left: 0.5rem;
+			   font-size: 1rem;
+			   margin-bottom: 1rem;
+			  
+}
+
+ #footer-email::placeholder{ color: gray;
+ }
+ #footer-email-btn { width: 100px;
+                     height: 40px;
+					 border-radius: 4px;
+					 background-color: #f94230;
+					 outline:none;
+			         border: none;
+					 color: yellow;
+					 font-size: 1rem;
+ }
+ #footer-email-btn:hover { cursor: pointer;
+                          background-color: #337AF1;
+                          transition: all 0.4s ease-out;
+
+ }						  
+ 
+ .footer-email-form { margin-top: 2rem;
+                     background-color: mediumturquoise
+                     
+ }
+ .submit{ width: 170px;
+                     height: 50px;
+					 border-radius: 4px;
+					 background-color:#B22222 ;
+					 outline:none;
+			         border: none;
+					 color: white;
+					 font-size: 2rem;
+					 margin: 50px;
+					
+ }
+ .submit:hover { cursor: pointer;
+                          background-color: #337AF1;
+                          transition: all 1.4s ease-out;
+ }
+                  
+
+				  /*enquiry details color styling*/
+				  
+				  
+				  
+ .name{ background-color: #FFF5EE;
+ }
+ .address{ background-color: #FAF0E6;
+ }
+ 
+ .contact{ background-color: #FFF5EE;
+ }
+ .product{ background-color: #FAF0E6;
+ }
+ #mark {
+   background-color:yellow;
+   font-weight: normal;
+   font-style: normal;
+   color: red;
+ }
+ 
+ 
+                  /*icons on footer styling*/
+ 
+ .icon-bar {
+  position: fixed;
+  top: 30%;
+  transform: translateY(-50%);
+}
+
+                 /* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 20px;
+  
+}
+
+            /* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+  
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+                       
+					   /*slider styling at home page*/
+					   
+					   
+.slider {
+    position: relative;
+    width: 85%;
+    overflow: hidden;
+	margin-left: 8%;
+}
+.images {
+    display: flex;
+    width: 50%;
+}
+.images img {
+    height: 300px;
+    width: 85%;
+    transition: all 0.15s ease;
+}
+.images input {
+    display: none;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid black 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.dots label:hover {background: gray;}
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
+#img2:checked ~ .m2 {
+    margin-left: -50%;
+}
+#img3:checked ~ .m3 {
+    margin-left: -100%;
+}
+#img4:checked ~ .m4 {
+    margin-left: -150%;
+}
+
+
+
+               /*card styling at home page*/
+			   
+			   
+.card{
+		width: 90%;
+		padding: 20px;
+		margin: 100px auto;	 
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		
+	}
+	
+
+	.box{
+		width: 250px;
+		margin: 0 10px;
+		box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+		transition: 1s;
+        background-color: antiquewhite;
+	}
+	.box img{
+		display: block;
+		width:100%;
+		border-radius: 5px;
+	}
+	.box:hover{
+		transform: scale(1.3);
+		z-index: 2;
+		background-color:pink;
+		cursor:pointer;
+	}
+	
+	.enhancement { text-align:center;
+	               text-shadow: 2px 2px yellow;
+	
+	}
+	
+	form{ padding: 95px;}
+	
+	#price { padding:65px;}
+	
+	.desptn{ padding:65px;}
+	
+	.tv1home { float:right; }
+	
+	.tvphoto{ margin-left: 20%;
+	          }
+	
+	.tv5 { margin-left: 885px;}
+	.tv6 { margin-left: 85px;}
+	
+	
+    .middle { text-align: center;}
